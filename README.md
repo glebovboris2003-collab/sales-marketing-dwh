@@ -50,11 +50,11 @@ sales-marketing-dwh/
 
 Исходный слой содержит пять таблиц:
 
-- stg.customers — клиенты.
-- stg.channels — рекламные каналы.
-- stg.campaigns — маркетинговые кампании.
-- stg.orders — заказы.
-- stg.order_items — товарные позиции.
+- stg.customers - клиенты.
+- stg.channels - рекламные каналы.
+- stg.campaigns - маркетинговые кампании.
+- stg.orders - заказы.
+- stg.order_items - товарные позиции.
 
 Данные генерируются средствами SQL с использованием generate_series(), random() и CASE.
 
